@@ -27,4 +27,9 @@ function diaDeLaSemana($numero) {
             break;
     }
 }
+
+// Solicitamos al usuario que introduzca un número
+echo "Introduce un número del 1 al 7: ";
+$numero = intval(trim(fgets(STDIN)));  // Leer desde la entrada estándar (consola)
+diaDeLaSemana($numero);
 ?>
