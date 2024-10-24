@@ -10,7 +10,7 @@
 <body>
     <h1>Introduce un número del 1 al 7</h1>
     
-    <form method="POST" action="">
+    <form action="diadelasemana.php" method="get">
         <label for="numero">Número del día:</label>
         <input type="number" id="numero" name="numero" min="1" max="7" required>
         <button type="submit">Enviar</button>
